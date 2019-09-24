@@ -1,13 +1,15 @@
 (function() {
     const firebaseConfig = {
-        apiKey: "AIzaSyAs3ZvfNxCzfyRHQpdfxFL1Uv4KoGPuPDs",
-        authDomain: "sgp-1-67129.firebaseapp.com",
-        databaseURL: "https://sgp-1-67129.firebaseio.com",
-        projectId: "sgp-1-67129",
-        storageBucket: "sgp-1-67129.appspot.com",
-        messagingSenderId: "457737777708",
-        appId: "1:457737777708:web:6065e2407e1aa212375789"
-    };
+        apiKey: "AIzaSyDIrbNg-qccrWwtPai_thPtXQdzt9Xgb-w",
+        authDomain: "uniresourcemanagementapp.firebaseapp.com",
+        databaseURL: "https://uniresourcemanagementapp.firebaseio.com",
+        projectId: "uniresourcemanagementapp",
+        storageBucket: "uniresourcemanagementapp.appspot.com",
+        messagingSenderId: "201589853547",
+        appId: "1:201589853547:web:026f88aa991390e104902e",
+        measurementId: "G-7XGYQ2PFWZ"
+};
+;
 // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
 
