@@ -30,32 +30,7 @@
 
 <button onclick="googleSignIn()">Google SignIn</button>
 <script src="https://www.gstatic.com/firebasejs/3.2.0/firebase.js"></script>
-<script>
-    // Your web app's Firebase configuration
-    const firebaseConfig = {
-        apiKey: "AIzaSyAs3ZvfNxCzfyRHQpdfxFL1Uv4KoGPuPDs",
-        authDomain: "sgp-1-67129.firebaseapp.com",
-        databaseURL: "https://sgp-1-67129.firebaseio.com",
-        projectId: "sgp-1-67129",
-        storageBucket: "sgp-1-67129.appspot.com",
-        messagingSenderId: "457737777708",
-        appId: "1:457737777708:web:6065e2407e1aa212375789"
-    };
-    // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
-
-    googleSignIn=()=>{
-        base_provider = new firebase.auth.GoogleAuthProvider()
-        firebase.auth().signInWithPopup(base_provider).then(function(result) {
-            console.log(result)
-            console.log("Success..google account linked")
-            window.location = "home.php";
-        }).catch(function (err) {
-            console.log(err)
-            console.log("Sign in failed")
-        })
-    }
-</script>
+<script src="auth.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
