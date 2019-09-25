@@ -9,7 +9,7 @@
         appId: "1:201589853547:web:026f88aa991390e104902e",
         measurementId: "G-7XGYQ2PFWZ"
 };
-;
+
 // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
 
